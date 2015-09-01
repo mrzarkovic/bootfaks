@@ -1,7 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,latin-ext);
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background: url('../img/confectionary.png');
+  font-family: 'PT Sans', sans-serif;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -10,6 +14,20 @@ body {
 .footer {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+/* Custom badge */
+.badge {
+  font-weight: normal;
+  background-color: #999;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.logo:hover h3 {
+  color: #337ab7;
 }
 
 /* Custom page header */
@@ -45,7 +63,8 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  background: url('../img/fineart.jpeg') -266px -330px no-repeat;
+  background: url('../img/upfeathers.png');
+  box-shadow: 0px 0px 10px #ccc;
 }
 .jumbotron .btn {
   padding: 14px 24px;
